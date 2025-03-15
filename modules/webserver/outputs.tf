@@ -1,5 +1,5 @@
 output "sg-id" {
-    value = aws_default_security_group.default-sg
+    value = aws_security_group.myapp-sg.id
 }
 
 output "instance" {
